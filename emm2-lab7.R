@@ -55,7 +55,7 @@ while (sum(times_a) < time_horizon) {
 }
 
 
-plot(cumsum(times_a), capital_a, type = "l", col = "darkblue",
+plot(cumsum(times_a), capital_a, type = "s", col = "darkblue",
      main = "условие выполняется", xlab = "Время", ylab = "Капитал")
 
 
